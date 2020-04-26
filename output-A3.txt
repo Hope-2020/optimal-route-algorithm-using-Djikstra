@@ -1,0 +1,63 @@
+$ python LinkState < test1.txt 
+Forwarding Table for 1
+To       Cost       Next Hop
+2       1       2
+5       4       6
+Forwarding Table for 3
+To       Cost       Next Hop
+2       2       1
+5       5       1
+Forwarding Table for 4
+To       Cost       Next Hop
+2       4       3
+5       1       5
+Forwarding Table for 6
+To       Cost       Next Hop
+2       5       4
+5       2       4
+
+
+
+python LinkState < test2.txt  
+Forwarding Table for 1
+To       Cost       Next Hop
+3       2       2
+Forwarding Table for 2
+To       Cost       Next Hop
+3       1       3
+Forwarding Table for 4
+To       Cost       Next Hop
+3       -1       -1
+
+python LinkState < test3.txt 
+Forwarding Table for 4
+To       Cost       Next Hop
+1       4       5
+2       2       5
+3       3       5
+5       1       5
+
+python LinkState < test4.txt 
+Forwarding Table for 1
+To       Cost       Next Hop
+3       2       2
+Forwarding Table for 2
+To       Cost       Next Hop
+3       1       3
+
+python LinkState < test6.txt 
+Forwarding Table for 2
+To       Cost       Next Hop
+1       2       3
+Forwarding Table for 3
+To       Cost       Next Hop
+1       1       1
+Forwarding Table for 4
+To       Cost       Next Hop
+1       -1       -1
+Forwarding Table for 5
+To       Cost       Next Hop
+1       -1       -1
+Forwarding Table for 6
+To       Cost       Next Hop
+1       -1       -1
